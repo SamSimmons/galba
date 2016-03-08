@@ -23,7 +23,6 @@ class Chapter extends React.Component {
 	}
 	
 	render() {
-		console.log(this.state.count);
 		return (
 			<div>
 				{this.props.book.chapters[this.state.chapterIndex].text.map((par, i) => <p key={i}>{par}</p>)}
