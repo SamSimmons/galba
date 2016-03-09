@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Book from './book';
+import Library from './library';
 
 
 class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Library</h1>
-				<Book />
+				<h1>App -> library</h1>
+				<Library />
 			</div>
 		)
 	}

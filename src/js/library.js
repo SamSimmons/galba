@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import MeditationsAur from './meditations-aur';
+import Bookity from './bookity';
 
 
-class Book extends React.Component {
+class Library extends React.Component {
 	
 	render() {
 		
 		return (
 			<div>
+				<h1>library -> meditations</h1>
 				<MeditationsAur />
 			</div>
 			
@@ -17,5 +19,5 @@ class Book extends React.Component {
 	}
 }
 
-export default Book;
+export default Library;
 
