@@ -477,8 +477,11 @@ class MeditationsAur extends React.Component {
 	render() {
 
 		return (
-			<div>
-				<h1>meditations -> contents</h1>
+			<div className="book">
+				<div className="book-data">
+					<h1>{book.title}</h1>
+					<h2>{book.author}</h2>
+				</div>
 				<Contents book={book}/>
 			</div>
 		)
